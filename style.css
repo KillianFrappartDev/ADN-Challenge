@@ -1,0 +1,141 @@
+/* ---- GENERAL ---- */
+
+/* ---- NAVIGATION SECTION---- */
+
+/* Container */
+.navigation-container {
+
+    background-color: #0096FF;
+    border-radius: 0 0 5px 5px;
+    padding: 0;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .navigation-container {
+        margin: 0 auto !important;
+        max-width: 96%;
+    }
+}
+
+.navbar {
+    height: 71.27px;
+    padding: 0;
+    text-align: left;
+}
+
+/* Items */
+.row {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-logo {
+    height: 100%;
+    position: relative;
+    width: 8rem;
+}
+
+.nav-logo img {
+    width: 4rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-logo img {
+        left: 1rem;
+        width: 6rem;
+    }
+}
+
+.nav-wrap {
+    padding: 0;
+    height: 100%;
+}
+
+.nav-item {
+    width: 10%;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.fas {
+    font-size: 5rem;
+}
+
+.border-dk {
+    border-right: rgba(0, 0, 0, 0.95) solid 0.5px;
+
+}
+
+.nav-link {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    color: white;
+    padding: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .nav-link {
+        font-size: 1rem;
+        margin-top: 1.8rem;
+    }
+}
+
+.nav-link-txt {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 950px) {
+    .nav-link-txt {
+        display: none;
+        text-transform: uppercase;
+    }
+}
+
+/* Sub Button */
+.sub-btn {
+    margin: 1rem auto 0;
+    color: white;
+    text-transform: uppercase;
+    width: 165px;
+    height: 45px;
+    background-color: rgb(0, 222, 82);
+    border-radius: 0%;
+    border: solid 1.5px white;
+    font-family: p;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.sub-btn:hover {
+    background-color: white;
+    color: rgb(0, 222, 82);
+    border-color: rgb(0, 222, 82);
+}
+
+@media screen and (max-width: 1000px) {
+    .sub-btn {
+        margin-top: 1.5rem;
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .sub-btn {
+        margin-top: 1.6rem;
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
