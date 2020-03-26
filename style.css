@@ -120,7 +120,7 @@ body {
 
 /* Sub Button */
 .sub-btn {
-    margin: 0.9rem 2rem 0 ;
+    margin: 0.9rem 2rem 0;
     color: white;
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -161,7 +161,7 @@ body {
 
 /* ---- CONTENT SECTION---- */
 
-/* Containers */    
+/* Containers */
 .content-container {
     margin: 7.5rem auto 3rem;
     padding: 0;
@@ -180,9 +180,136 @@ body {
 
 /* Feed */
 .feed {
-    background-color: lightgrey;
     width: 100%;
     height: 1500px;
+    padding: 0;
+}
+
+/* Main */
+.main {
+    height: 465px;
+    border-radius: 5px;
+    background-color: rgb(0, 150, 255);
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Carousel */
+.carousel {
+    height: 100%;
+}
+
+.carousel .col-lg-5 {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 350px;
+    z-index: -1;
+}
+
+.carousel .col-2 {
+    height: 500px;
+    position: relative;
+    left: -2rem;
+    padding: 0;
+    background-color: rgb(0, 150, 255);
+    transform: rotate(5deg);
+}
+
+.item-txt {
+    color: #FFF;
+    position: relative;
+}
+
+.item-txt h1 {
+    position: absolute;
+    top: 40%;
+    left: -5rem;
+    transform: translateY(-50%);
+    font-size: 3rem;
+}
+
+.item-txt button {
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    left: 40%;
+    width: 12rem;
+    height: 3rem;
+    background-color: rgb(0, 150, 255);
+    color: #FFF;
+    border: 1.5px solid #FFF;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.item-txt button:hover {
+    background-color: #FFF;
+    color: rgb(0, 150, 255);
+    border-color: #FFF;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1080px) {
+    .item-txt h1 {
+        position: absolute;
+        top: 40%;
+        left: -5rem;
+        transform: translateY(-50%);
+        font-size: 2.5rem;
+    }
+
+    .item-txt button {
+        position: absolute;
+        left: 35%;
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .item-txt h1 {
+        text-align: center;
+        top: 40%;
+        left: -5rem;
+        font-size: 2.2rem;
+    }
+
+    .item-txt button {
+        position: absolute;
+        left: 15%;
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 630px) and (max-width: 768px) {
+    .carousel .col-2 {
+        left: -6rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 575px) {
+    .item-txt h1 {
+        text-align: center;
+        top: 40%;
+        left: -5rem;
+        font-size: 1.8rem;
+    }
+
+    .item-txt button {
+        position: absolute;
+        left: 5%;
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+    }
 }
 
 /* Annexe */
@@ -219,9 +346,12 @@ body {
     position: relative;
 }
 
-.feat-a1, .feat-a2, .feat-b1, .feat-b2 {
+.feat-a1,
+.feat-a2,
+.feat-b1,
+.feat-b2 {
     margin-right: 0.5rem;
-} 
+}
 
 /* a1 */
 
@@ -414,7 +544,8 @@ body {
     margin-top: 0.5rem;
 }
 
-.episode .col,.col-3 {
+.episode .col,
+.col-3 {
     position: relative;
 }
 
@@ -484,7 +615,7 @@ body {
     background-color: rgb(0, 150, 255);
     z-index: 1;
     padding: 1rem 1rem 0;
-    
+
 }
 
 .poster-info * {
@@ -529,7 +660,7 @@ body {
 .poster-copyright {
     margin-top: 0.8rem;
     color: rgb(236, 235, 235);
-    font-size: 0.6rem!important;
+    font-size: 0.6rem !important;
 }
 
 /* News */
@@ -605,7 +736,7 @@ body {
 }
 
 .news-more {
-    color: rgb(0, 150, 255)!important;
+    color: rgb(0, 150, 255) !important;
     position: absolute;
     bottom: -1.5rem;
     left: 5px;
