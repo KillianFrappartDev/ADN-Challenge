@@ -180,9 +180,9 @@ body {
 
 /* Feed */
 .feed {
-    background-color: red;
+    background-color: lightgrey;
     width: 100%;
-    height: 2000px;
+    height: 1500px;
 }
 
 /* Annexe */
@@ -390,9 +390,12 @@ body {
 }
 
 /* hour */
+.calendar-hour {
+    height: 30px;
+}
+
 .calendar-hour * {
     color: rgb(0, 150, 255);
-    height: 2rem;
 }
 
 .time {
@@ -407,5 +410,45 @@ body {
 
 /* Episodes */
 .episode {
-    height: 300px;
+    height: 80px;
+    margin-top: 0.5rem;
+}
+
+.episode .col,.col-3 {
+    position: relative;
+}
+
+.episode-img img {
+    width: 120%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.episode-title {
+    color: #FFF;
+    position: absolute;
+    top: 1.6rem;
+    left: 1.5rem;
+    text-transform: uppercase;
+}
+
+/* See More */
+.btn-see-more {
+    height: 85px;
+}
+
+.calendar-btn {
+    width: 17rem;
+    margin: 0.6rem auto;
+    height: 2.5rem;
+    background-color: rgb(0, 150, 255);
+    padding-top: 0.2rem;
+}
+
+.calendar-btn:hover {
+    background-color: #FFF;
+    border-color: #FFF;
+    color: rgb(0, 150, 255);
 }
