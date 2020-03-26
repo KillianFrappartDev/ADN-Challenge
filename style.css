@@ -160,6 +160,8 @@ body {
 
 
 /* ---- CONTENT SECTION---- */
+
+/* Containers */    
 .content-container {
     margin: 7.5rem auto 3rem;
     padding: 0;
@@ -171,20 +173,239 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     .content-container {
-        margin: 0 auto !important;
+        margin: 5.5rem auto 3rem !important;
         max-width: 96%;
     }
 }
 
-.testa {
+/* Feed */
+.feed {
     background-color: red;
     width: 100%;
     height: 2000px;
 }
 
-.testb {
-    background-color: rgb(0, 222, 82);
-    width: 100%;
+/* Annexe */
+.annexe {
+    width: 300px;
     height: 2000px;
     margin-left: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .annexe {
+        display: none;
+    }
+}
+
+/* Features */
+.features {
+    margin: 2rem 0 1rem;
+}
+
+.feat-row1 {
+    margin-bottom: 1rem;
+    height: 55px;
+}
+
+.feat-row2 {
+    height: 55px;
+}
+
+.feat {
+    padding: 0;
+    background-color: #0096FF;
+    border-radius: 5px;
+    position: relative;
+}
+
+.feat-a1, .feat-a2, .feat-b1, .feat-b2 {
+    margin-right: 0.5rem;
+} 
+
+/* a1 */
+
+.feat-a1 * {
+    position: absolute;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.a1-1 {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    left: 1.1rem;
+}
+
+.a1-2 {
+    top: -0.5rem;
+    left: 2.5rem;
+    font-size: 2.3rem;
+}
+
+.a1-3 {
+    top: 2rem;
+    left: 2.6rem;
+    font-size: 1.2rem;
+}
+
+/* a2 */
+
+.feat-a2 * {
+    position: absolute;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.feat-a2 img {
+    top: 0.3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55%;
+}
+
+.a2-1 {
+    top: 1.5rem;
+    font-size: 1.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* a3 */
+
+.feat-a3 * {
+    position: absolute;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.a3-1 {
+    top: 50%;
+    font-size: 2.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* b1 */
+
+.feat-b1 * {
+    position: absolute;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.b1-1 {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    left: 0.6rem;
+}
+
+.b1-2 {
+    top: 0rem;
+    left: 2rem;
+    font-size: 2.3rem;
+}
+
+.b1-3 {
+    top: 1.1rem;
+    left: 6.5rem;
+    font-size: 0.7rem;
+    font-weight: 0;
+    line-height: 1;
+}
+
+/* b2 */
+
+.feat-b2 * {
+    position: absolute;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.feat-b2 a {
+    top: 0.3rem;
+    left: 1rem;
+}
+
+.b2-1 {
+    top: 2.5rem;
+    font-size: 0.42rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* b3 */
+
+.feat-b3 * {
+    position: absolute;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.feat-b3 a {
+    top: 0.3rem;
+    left: 1.5rem;
+}
+
+.b3-1 {
+    top: 2rem;
+    font-size: 0.42rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+/* Calendar */
+.calendar {
+    height: 400px;
+    background-color: rgb(48, 49, 50);
+    border-radius: 5px;
+}
+
+/* header */
+.calendar-date {
+    height: 2.5rem;
+}
+
+.calendar-date * {
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+
+/* hour */
+.calendar-hour * {
+    color: rgb(0, 150, 255);
+    height: 2rem;
+}
+
+.time {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-right: 2.4rem;
+}
+
+.col hr {
+    border-top: 1.5px solid rgb(0, 150, 255);
+}
+
+/* Episodes */
+.episode {
+    height: 300px;
 }
