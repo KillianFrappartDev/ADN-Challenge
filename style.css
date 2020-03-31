@@ -414,6 +414,7 @@ ul {
     background-color: rgb(48, 49, 50);
 }
 
+
 .list-header hr {
     position: absolute;
     width: 100%;
@@ -443,6 +444,17 @@ ul {
     font-weight: 700;
     font-size: 1rem;
     padding-top: 0.5rem;
+}
+
+
+@media screen and (max-width: 570px) {
+    .list-header h4 {
+        font-size: 15px;
+    }
+
+    .film-title h4 {
+        font-size: 0.6rem;
+    }
 }
 
 .about {
