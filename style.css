@@ -389,6 +389,12 @@ ul {
     }
 }
 
+@media screen and (max-width: 570px) {
+    .concours-txt {
+        top: 45%;
+    }
+}
+
 /* List */
 .anime-list {
     width: 100%;
